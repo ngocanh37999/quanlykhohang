@@ -56,7 +56,7 @@ export default function ProductList() {
           data-bs-toggle='tooltip'
           title="Hi! I'm tooltip"
         >
-          Tổng giá điện thoại: {helper.formatCurrency(detailProducts.totalDienThoai())}
+          Tổng giá điện thoại: {helper.formatCurrency(detailProducts.totalDienThoai())} đ
         </p>
 
         <p
@@ -64,7 +64,7 @@ export default function ProductList() {
           data-bs-toggle='tooltip'
           title="Hi! I'm tooltip"
         >
-          Tổng giá đồng hồ: {helper.formatCurrency(detailProducts.totalDongHo())}
+          Tổng giá đồng hồ: {helper.formatCurrency(detailProducts.totalDongHo())} đ
         </p>
 
         <p
@@ -72,7 +72,7 @@ export default function ProductList() {
           data-bs-toggle='tooltip'
           title="Hi! I'm tooltip"
         >
-          Tổng giá điện thoại còn hàng: {helper.formatCurrency(detailProducts.dienThoaiConHang())}
+          Tổng giá điện thoại còn hàng: {helper.formatCurrency(detailProducts.dienThoaiConHang())} đ
         </p>
 
         <p
@@ -80,7 +80,7 @@ export default function ProductList() {
           data-bs-toggle='tooltip'
           title="Hi! I'm tooltip"
         >
-          Tổng giá đồng hồ còn hàng: {helper.formatCurrency(detailProducts.dongHoConHang())}
+          Tổng giá đồng hồ còn hàng: {helper.formatCurrency(detailProducts.dongHoConHang())} đ
         </p>
       </div>
 
